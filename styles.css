@@ -187,3 +187,15 @@ img {
 .bottom-main-sign-button {
     align-self: flex-end;
 }
+
+/* footer css */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1f2937;
+    height: 50px;
+    font-size: 10px;
+    color: #E5E7EB;
+}
