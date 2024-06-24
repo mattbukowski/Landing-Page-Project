@@ -1,7 +1,35 @@
 body {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     margin: 0;
+}
+
+/* header css */
+
+.main-header {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 200px;
+    height: 400px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.subheader {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-button {
 }
 
 .navigation{
@@ -48,4 +76,9 @@ button {
     border: 0;
     width: 90px;
     height: 30px;
+}
+
+img {
+    width: 300px;
+    height: auto;
 }
