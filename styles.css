@@ -82,3 +82,25 @@ img {
     width: 300px;
     height: auto;
 }
+
+/* top-main css */
+
+.top-main-text,
+.cards-text {
+    text-align: center;
+}
+
+.top-main-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.cards img {
+    width: 200px;
+    height: auto;
+}
+
+.cards {
+    max-width: 200px;
+}
